@@ -10,7 +10,7 @@ import {
     autoAction,
     isGenerator,
     MakeResult
-} from "../internal"
+} from "../internal.ts"
 
 const AUTO = "true"
 
