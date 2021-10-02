@@ -1,5 +1,5 @@
-import { IDerivation, IObservable, Reaction, die, getGlobal } from "../internal"
-import { ComputedValue } from "./computedvalue"
+import { IDerivation, IObservable, Reaction, die, getGlobal } from "../internal.ts"
+import { ComputedValue } from "./computedvalue.ts"
 
 /**
  * These values will persist if global state is reset
