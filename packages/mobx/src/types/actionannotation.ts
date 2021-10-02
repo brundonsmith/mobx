@@ -8,7 +8,7 @@ import {
     Annotation,
     globalState,
     MakeResult
-} from "../internal"
+} from "../internal.ts"
 
 export function createActionAnnotation(name: string, options?: object): Annotation {
     return {
