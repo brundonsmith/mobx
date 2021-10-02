@@ -1,4 +1,4 @@
-import { Annotation, addHiddenProp, AnnotationsMap, hasProp, die, isOverride } from "../internal"
+import { Annotation, addHiddenProp, AnnotationsMap, hasProp, die, isOverride } from "../internal.ts"
 
 export const storedAnnotationsSymbol = Symbol("mobx-stored-annotations")
 
