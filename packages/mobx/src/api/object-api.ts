@@ -12,7 +12,7 @@ import {
     isObservableObject,
     startBatch,
     die
-} from "../internal"
+} from "../internal.ts"
 
 export function keys<K>(map: ObservableMap<K, any>): ReadonlyArray<K>
 export function keys<T>(ar: IObservableArray<T>): ReadonlyArray<number>
