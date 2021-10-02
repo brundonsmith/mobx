@@ -12,7 +12,7 @@ import {
     ObservableSet,
     ISetDidChange,
     isFunction
-} from "../internal"
+} from "../internal.ts"
 
 export function observe<T>(
     value: IObservableValue<T> | IComputedValue<T>,
