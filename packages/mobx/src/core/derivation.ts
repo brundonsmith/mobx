@@ -6,7 +6,7 @@ import {
     globalState,
     isComputedValue,
     removeObserver
-} from "../internal"
+} from "../internal.ts"
 
 export enum IDerivationState_ {
     // before being run or (outside batch and not being observed)
