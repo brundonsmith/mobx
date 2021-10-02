@@ -34,7 +34,7 @@ import {
     isFunction,
     UPDATE,
     IAtom
-} from "../internal"
+} from "../internal.ts"
 
 export interface IKeyValueMap<V = any> {
     [key: string]: V
