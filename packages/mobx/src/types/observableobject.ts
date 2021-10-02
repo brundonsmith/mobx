@@ -47,7 +47,7 @@ import {
     getDebugName,
     objectPrototype,
     MakeResult
-} from "../internal"
+} from "../internal.ts"
 
 const descriptorCache = Object.create(null)
 
