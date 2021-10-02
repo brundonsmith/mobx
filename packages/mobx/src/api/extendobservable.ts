@@ -12,7 +12,7 @@ import {
     getOwnPropertyDescriptors,
     $mobx,
     ownKeys
-} from "../internal"
+} from "../internal.ts"
 
 export function extendObservable<A extends Object, B extends Object>(
     target: A,
