@@ -8,7 +8,7 @@ import {
     ObservableSet,
     isFunction,
     IObservableValue
-} from "../internal"
+} from "../internal.ts"
 
 const ON_BECOME_OBSERVED = "onBO"
 const ON_BECOME_UNOBSERVED = "onBUO"
