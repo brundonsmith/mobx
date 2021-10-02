@@ -1,4 +1,4 @@
-import { deepEqual } from "../internal"
+import { deepEqual } from "../internal.ts"
 
 export interface IEqualsComparer<T> {
     (a: T, b: T): boolean
