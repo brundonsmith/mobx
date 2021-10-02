@@ -5,7 +5,7 @@ import {
     createDecoratorAnnotation,
     ObservableObjectAdministration,
     MakeResult
-} from "../internal"
+} from "../internal.ts"
 
 const OVERRIDE = "override"
 
