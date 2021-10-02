@@ -1,4 +1,4 @@
-import { $mobx, getAtom, isComputedValue, isObservableObject, die, isStringish } from "../internal"
+import { $mobx, getAtom, isComputedValue, isObservableObject, die, isStringish } from "../internal.ts"
 
 export function _isComputed(value, property?: PropertyKey): boolean {
     if (property === undefined) {
