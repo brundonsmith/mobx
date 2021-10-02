@@ -1,4 +1,4 @@
-import { Lambda, once, untrackedEnd, untrackedStart } from "../internal"
+import { Lambda, once, untrackedEnd, untrackedStart } from "../internal.ts"
 
 export interface IListenable {
     changeListeners_: Function[] | undefined
