@@ -24,7 +24,7 @@ import {
     globalState,
     IUNCHANGED,
     UPDATE
-} from "../internal"
+} from "../internal.ts"
 
 export interface IValueWillChange<T> {
     object: IObservableValue<T>
