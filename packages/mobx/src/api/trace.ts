@@ -1,4 +1,4 @@
-import { TraceMode, die, getAtom, globalState } from "../internal"
+import { TraceMode, die, getAtom, globalState } from "../internal.ts"
 
 export function trace(thing?: any, prop?: string, enterBreakPoint?: boolean): void
 export function trace(thing?: any, enterBreakPoint?: boolean): void
