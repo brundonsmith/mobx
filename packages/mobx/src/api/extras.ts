@@ -1,4 +1,4 @@
-import { IDepTreeNode, getAtom, getObservers, hasObservers } from "../internal"
+import { IDepTreeNode, getAtom, getObservers, hasObservers } from "../internal.ts"
 
 export interface IDependencyTree {
     name: string
