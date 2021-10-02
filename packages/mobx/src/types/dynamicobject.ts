@@ -9,7 +9,7 @@ import {
     globalState,
     CreateObservableOptions,
     asObservableObject
-} from "../internal"
+} from "../internal.ts"
 
 function getAdm(target): ObservableObjectAdministration {
     return target[$mobx]
