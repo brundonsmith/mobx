@@ -8,7 +8,7 @@ import {
     isFunction,
     globalState,
     MakeResult
-} from "../internal"
+} from "../internal.ts"
 
 export function createFlowAnnotation(name: string, options?: object): Annotation {
     return {
