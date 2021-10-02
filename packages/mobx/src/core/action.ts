@@ -15,7 +15,7 @@ import {
     EMPTY_ARRAY,
     die,
     getDescriptor
-} from "../internal"
+} from "../internal.ts"
 
 // we don't use globalState for these in order to avoid possible issues with multiple
 // mobx versions
