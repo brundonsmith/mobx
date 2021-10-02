@@ -13,7 +13,7 @@ import {
     isPlainObject,
     die,
     allowStateChanges
-} from "../internal"
+} from "../internal.ts"
 
 export interface IAutorunOptions {
     delay?: number
