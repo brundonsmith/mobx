@@ -1,4 +1,4 @@
-import { globalState, isolateGlobalState, setReactionScheduler } from "../internal"
+import { globalState, isolateGlobalState, setReactionScheduler } from "../internal.ts"
 
 const NEVER = "never"
 const ALWAYS = "always"
