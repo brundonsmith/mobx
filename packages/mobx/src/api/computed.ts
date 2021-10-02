@@ -11,7 +11,7 @@ import {
     IComputedValue,
     createComputedAnnotation,
     comparer
-} from "../internal"
+} from "../internal.ts"
 
 export const COMPUTED = "computed"
 export const COMPUTED_STRUCT = "computed.struct"
