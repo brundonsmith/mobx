@@ -1,4 +1,4 @@
-import { ObservableObjectAdministration, die, Annotation, MakeResult } from "../internal"
+import { ObservableObjectAdministration, die, Annotation, MakeResult } from "../internal.ts"
 
 export function createComputedAnnotation(name: string, options?: object): Annotation {
     return {
