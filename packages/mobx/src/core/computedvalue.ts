@@ -30,7 +30,7 @@ import {
     die,
     allowStateChangesStart,
     allowStateChangesEnd
-} from "../internal"
+} from "../internal.ts"
 
 export interface IComputedValue<T> {
     get(): T
