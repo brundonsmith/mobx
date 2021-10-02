@@ -15,8 +15,8 @@
  * - utils/   Utility stuff.
  *
  */
-import { die } from "./errors"
-import { getGlobal } from "./utils/global"
+import { die } from "./errors.ts"
+import { getGlobal } from "./utils/global.ts"
 ;["Symbol", "Map", "Set"].forEach(m => {
     let g = getGlobal()
     if (typeof g[m] === "undefined") {
@@ -24,7 +24,7 @@ import { getGlobal } from "./utils/global"
     }
 })
 
-import { spy, getDebugName, $mobx } from "./internal"
+import { spy, getDebugName, $mobx } from "./internal.ts"
 
 export {
     IObservable,
@@ -140,7 +140,7 @@ export {
     AnnotationsMap,
     AnnotationMapEntry,
     override
-} from "./internal"
+} from "./internal.ts"
 
 // Devtools support
 declare const __MOBX_DEVTOOLS_GLOBAL_HOOK__: { injectMobx: (any) => void }
