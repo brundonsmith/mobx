@@ -1,4 +1,4 @@
-import { ObservableObjectAdministration, isFunction } from "../internal"
+import { ObservableObjectAdministration, isFunction } from "../internal.ts"
 
 export const enum MakeResult {
     Cancel,
