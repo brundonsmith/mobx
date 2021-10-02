@@ -12,7 +12,7 @@ import {
     reportObserved,
     startBatch,
     Lambda
-} from "../internal"
+} from "../internal.ts"
 
 export const $mobx = Symbol("mobx administration")
 
