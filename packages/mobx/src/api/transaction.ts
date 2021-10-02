@@ -1,4 +1,4 @@
-import { endBatch, startBatch } from "../internal"
+import { endBatch, startBatch } from "../internal.ts"
 
 /**
  * During a transaction no views are updated until the end of the transaction.
