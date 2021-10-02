@@ -8,7 +8,7 @@ import {
     storeAnnotation,
     createFlowAnnotation,
     createDecoratorAnnotation
-} from "../internal"
+} from "../internal.ts"
 
 export const FLOW = "flow"
 
