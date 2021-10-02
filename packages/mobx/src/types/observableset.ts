@@ -28,7 +28,7 @@ import {
     ADD,
     die,
     isFunction
-} from "../internal"
+} from "../internal.ts"
 
 const ObservableSetMarker = {}
 
