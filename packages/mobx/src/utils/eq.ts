@@ -7,7 +7,7 @@ import {
     hasProp,
     isFunction,
     objectPrototype
-} from "../internal"
+} from "../internal.ts"
 
 declare const Symbol
 const toString = objectPrototype.toString
