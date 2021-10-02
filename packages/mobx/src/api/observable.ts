@@ -30,7 +30,7 @@ import {
     isStringish,
     createObservableAnnotation,
     createAutoAnnotation
-} from "../internal"
+} from "../internal.ts"
 
 export const OBSERVABLE = "observable"
 export const OBSERVABLE_REF = "observable.ref"
