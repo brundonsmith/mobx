@@ -13,7 +13,7 @@ import {
     ObservableSet,
     ISetWillChange,
     isFunction
-} from "../internal"
+} from "../internal.ts"
 
 export function intercept<T>(
     value: IObservableValue<T>,
