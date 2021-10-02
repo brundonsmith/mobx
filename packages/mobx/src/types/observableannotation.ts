@@ -4,7 +4,7 @@ import {
     die,
     Annotation,
     MakeResult
-} from "../internal"
+} from "../internal.ts"
 
 export function createObservableAnnotation(name: string, options?: object): Annotation {
     return {
