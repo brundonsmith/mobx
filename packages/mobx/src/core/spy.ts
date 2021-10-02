@@ -1,8 +1,8 @@
-import { IComputedDidChange } from "./computedvalue"
-import { IValueDidChange, IBoxDidChange } from "./../types/observablevalue"
-import { IObjectDidChange } from "./../types/observableobject"
-import { IArrayDidChange } from "./../types/observablearray"
-import { Lambda, globalState, once, ISetDidChange, IMapDidChange } from "../internal"
+import { IComputedDidChange } from "./computedvalue.ts"
+import { IValueDidChange, IBoxDidChange } from "./../types/observablevalue.ts"
+import { IObjectDidChange } from "./../types/observableobject.ts"
+import { IArrayDidChange } from "./../types/observablearray.ts"
+import { Lambda, globalState, once, ISetDidChange, IMapDidChange } from "../internal.ts"
 
 export function isSpyEnabled() {
     return __DEV__ && !!globalState.spyListeners.length
