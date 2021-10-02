@@ -29,7 +29,7 @@ import {
     hasProp,
     die,
     globalState
-} from "../internal"
+} from "../internal.ts"
 
 const SPLICE = "splice"
 export const UPDATE = "update"
