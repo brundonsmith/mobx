@@ -1,4 +1,4 @@
-import { isAction } from "../api/action"
+import { isAction } from "../api/action.ts"
 import {
     $mobx,
     IDepTreeNode,
@@ -11,7 +11,7 @@ import {
     isObservableSet,
     die,
     isFunction
-} from "../internal"
+} from "../internal.ts"
 
 export function getAtom(thing: any, property?: PropertyKey): IDepTreeNode {
     if (typeof thing === "object" && thing !== null) {
