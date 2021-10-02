@@ -9,7 +9,7 @@ import {
     globalState,
     runReactions,
     checkIfStateReadsAreAllowed
-} from "../internal"
+} from "../internal.ts"
 
 export interface IDepTreeNode {
     name_: string
