@@ -11,7 +11,7 @@ import {
     ObservableSet,
     die,
     isStringish
-} from "../internal"
+} from "../internal.ts"
 
 export type ReadInterceptor<T> = (value: any) => T
 
