@@ -8,7 +8,7 @@ import {
     die,
     apiOwnKeys,
     objectPrototype
-} from "../internal"
+} from "../internal.ts"
 
 function cache<K, V>(map: Map<any, any>, key: K, value: V): V {
     map.set(key, value)
