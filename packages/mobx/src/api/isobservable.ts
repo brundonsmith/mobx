@@ -8,7 +8,7 @@ import {
     isReaction,
     die,
     isStringish
-} from "../internal"
+} from "../internal.ts"
 
 function _isObservable(value, property?: PropertyKey): boolean {
     if (!value) return false
