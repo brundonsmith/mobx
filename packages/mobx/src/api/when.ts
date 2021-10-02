@@ -7,7 +7,7 @@ import {
     getNextId,
     die,
     allowStateChanges
-} from "../internal"
+} from "../internal.ts"
 
 export interface IWhenOptions {
     name?: string
