@@ -12,7 +12,7 @@ import {
     isObservableArray,
     IObservableArray,
     defineProperty
-} from "../internal"
+} from "../internal.ts"
 
 /**
  * This array buffer contains two lists of properties, so that all arrays
