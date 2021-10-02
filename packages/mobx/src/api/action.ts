@@ -8,7 +8,7 @@ import {
     isStringish,
     createDecoratorAnnotation,
     createActionAnnotation
-} from "../internal"
+} from "../internal.ts"
 
 export const ACTION = "action"
 export const ACTION_BOUND = "action.bound"
