@@ -19,7 +19,7 @@ import {
     startBatch,
     trace,
     trackDerivedFunction
-} from "../internal"
+} from "../internal.ts"
 
 /**
  * Reactions are a special kind of derivations. Several things distinguishes them from normal reactive computations
