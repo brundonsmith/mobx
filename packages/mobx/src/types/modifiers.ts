@@ -15,7 +15,7 @@ import {
     flow,
     isFlow,
     isGenerator
-} from "../internal"
+} from "../internal.ts"
 
 export interface IEnhancer<T> {
     (newValue: T, oldValue: T | undefined, name: string): T
